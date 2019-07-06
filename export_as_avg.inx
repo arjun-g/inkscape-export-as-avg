@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>Export as AVG</_name>
+    <id>org.arjun.exportasavg</id>
+    <output>
+        <extension>.json</extension>
+        <mimetype>application/json</mimetype>
+        <_filetypename>Alexa AVG (*.json)</_filetypename>
+        <_filetypetooltip>Alexa AVG</_filetypetooltip>
+    </output>
+    <script>
+        <command reldir="extensions" interpreter="python">./export_as_avg/export_as_avg.py</command>
+    </script>
+</inkscape-extension>
